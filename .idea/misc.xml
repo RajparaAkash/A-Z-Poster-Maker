@@ -1,0 +1,18 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/NEW UPDATE FINAL/A-Z Poster/app/src/main/res/layout/activity_main.xml" value="0.15715579710144928" />
+        <entry key="..\:/NEW UPDATE FINAL/A-Z Poster/app/src/main/res/layout/custom_native_ads.xml" value="0.15715579710144928" />
+        <entry key="..\:/NEW UPDATE FINAL/A-Z Poster/app/src/main/res/layout/logo_new_custom_native_ads.xml" value="0.15715579710144928" />
+        <entry key="..\:/NEW UPDATE FINAL/A-Z Poster/app/src/main/res/layout/new_activity_main.xml" value="0.1358695652173913" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

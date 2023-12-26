@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">A-Z Poster Maker</string>
+
+    <string name="DesignOptionsInstruction">Long Press on your Design for Options.</string>
+    <string name="LOADING">Loading…</string>
+    <string name="NoDesigns">No Design saved. Check out Free Designs Or Create Poster and save as Design.</string>
+
+    <string name="camera">Camera</string>
+    <string name="create_dir_err">Can\'t create directory to save image.</string>
+    <string name="default_progressbar">Default Progressbar:</string>
+    <string name="define_roundedimageview" />
+    <string name="del_error_toast">Error occurred during deletion.</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="error">Error</string>
+
+    <string name="no">No</string>
+    <string name="no_layers">No Layers !!</string>
+    <string name="no_saved_pics">No saved pictures</string>
+    <string name="ok">OK</string>
+
+    <string name="permission">Permission!</string>
+    <string name="permission_des">Grant these permissions to use Poster Maker</string>
+    <string name="permission_des1">Note: You can also give permissions in Settings --&gt; apps --&gt; Poster Maker --&gt;Permissions</string>
+    <string name="picUpImg">select images</string>
+    <string name="plzwait">Please wait..</string>
+
+
+    <string name="save_err">Error while saving</string>
+    <string name="search_menu_title">Search</string>
+    <string name="select_picture">Select picture using</string>
+    <string name="settings">Settings</string>
+    <string name="share_image">Share</string>
+    <string name="share_text">I\'m using amazing Poster Maker! Get the free app at</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage">Storage</string>
+    <string name="template_error">no template found</string>
+    <string name="txt_backgrounds">Background</string>
+    <string name="txt_colorOpacty">Colors and Opacity</string>
+    <string name="txt_conti">continue</string>
+    <string name="txt_controls">Controls</string>
+    <string name="txt_curve">Curve</string>
+    <string name="txt_fonts">Fonts</string>
+    <string name="txt_shadow">Shadow</string>
+    <string name="txt_spacing">Space</string>
+    <string name="ucrop_error_input_data_is_absent">Both input and output Uri must be specified</string>
+    <string name="ucrop_label_edit_photo">Edit Photo</string>
+    <string name="ucrop_label_original">Original</string>
+    <string name="ucrop_menu_crop">Crop</string>
+    <string name="ucrop_mutate_exception_hint">Therefore, override color resource (ucrop_color_toolbar_widget) in your app to make it work on pre-L devices</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="in_app"><![CDATA[<string nRemove ads &amp; WaterMark]]></string>
+
+
+<!--
+    <string name="fb_interstitial">YOUR_PLACEMENT_ID</string>
+-->
+    <string name="fb_interstitial">807889246710968_807893413377218</string>
+
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="memoryerror">you don\'t have enough space please check it</string>
+    <string name="title_activity_category_template">CategoryTemplateActivity</string>
+    <string name="title_activity_choose_size">ChooseSizeActivity</string>
+
+    <string name="string_massive_update">Plus Periodically update to our massive library.></string>
+
+    <string name="button_continue">Subscribe Now</string>
+    <string name="button_retry">Retry</string>
+
+    <string name="one_month">1 Month</string>
+    <string name="six_months">6 Months</string>
+    <string name="twelve_months">12 Months</string>
+
+    <string name="price_string">%1$s / %2$d months </string>
+
+    <!--    billing errors-->
+    <string name="error_no_skus">We didn\'t find any subscriptions to display&#8230; Check your internet connection or contact with developer.</string>
+    <string name="error_billing_unavailable">Billing unavailable. Check your internet connection or contact with developer.</string>
+    <string name="error_billing_default">Billing unavailable. Check your internet connection or contact with developer.</string>
+    <string name="extract_string">*</string>
+</resources>

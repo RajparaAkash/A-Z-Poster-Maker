@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/EditTemplate"
+        android:icon="@drawable/ic_edit_design"
+        android:iconTint="@color/black"
+        android:title="Edit" />
+
+    <item
+        android:id="@+id/ShareTemplate"
+        android:icon="@drawable/ic_share"
+        android:iconTint="@color/black"
+        android:visible="false"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/DeleteTemplate"
+        android:icon="@drawable/poster_delete"
+        android:iconTint="@color/black"
+        android:title="Delete" />
+
+</menu>

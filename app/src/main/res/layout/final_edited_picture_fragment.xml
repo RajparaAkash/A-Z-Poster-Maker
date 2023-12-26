@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sweet="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/action0"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        sweet:layout_constraintEnd_toEndOf="parent"
+        sweet:layout_constraintStart_toStartOf="parent"
+        sweet:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#262530">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:onClick="onClick"
+                android:src="@drawable/toolbar_back_template" />
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/btn_back"
+                android:paddingLeft="5dp"
+                android:text="Edit Image Style"
+                android:textAllCaps="true"
+                android:textColor="@color/titlecolor"
+                android:textSize="@dimen/_15sdp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_4sdp"
+        sweet:layout_constraintBottom_toTopOf="@+id/guideline"
+        sweet:layout_constraintEnd_toEndOf="parent"
+        sweet:layout_constraintStart_toStartOf="parent"
+        sweet:layout_constraintTop_toBottomOf="@+id/action0">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imageViews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:padding="@dimen/_20sdp"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekRound"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:max="500"
+        sweet:layout_constraintBottom_toTopOf="@+id/textView2"
+        sweet:layout_constraintEnd_toEndOf="parent"
+        sweet:layout_constraintStart_toEndOf="@+id/barrier"
+        sweet:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Round Corner"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp"
+        sweet:layout_constraintEnd_toEndOf="@+id/barrier"
+        sweet:layout_constraintStart_toStartOf="parent"
+        sweet:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        sweet:layout_constraintGuide_begin="418dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Border Width"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp"
+        sweet:layout_constraintStart_toStartOf="parent"
+        sweet:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <SeekBar
+        android:id="@+id/seekBar4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:max="80"
+        sweet:layout_constraintBottom_toBottomOf="@+id/textView2"
+        sweet:layout_constraintEnd_toEndOf="parent"
+        sweet:layout_constraintStart_toEndOf="@+id/barrier"
+        sweet:layout_constraintTop_toTopOf="@+id/textView2" />
+
+    <uz.shift.colorpicker.LineColorPicker
+        android:id="@+id/picker1"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        sweet:layout_constraintEnd_toEndOf="parent"
+        sweet:layout_constraintStart_toStartOf="parent"
+        sweet:layout_constraintTop_toBottomOf="@+id/seekBar4" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_white_shape"
+        android:text="Keep as original"
+        sweet:layout_constraintBottom_toBottomOf="parent"
+        sweet:layout_constraintEnd_toStartOf="@+id/button3"
+        sweet:layout_constraintHorizontal_bias="0.5"
+        sweet:layout_constraintStart_toStartOf="parent"
+        sweet:layout_constraintTop_toBottomOf="@+id/picker1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/button_white_shape"
+        android:text="Done"
+        sweet:layout_constraintBaseline_toBaselineOf="@+id/button2"
+        sweet:layout_constraintEnd_toEndOf="parent"
+        sweet:layout_constraintHorizontal_bias="0.5"
+        sweet:layout_constraintStart_toEndOf="@+id/button2" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        sweet:barrierDirection="top"
+        sweet:constraint_referenced_ids="textView,textView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
